@@ -13,7 +13,7 @@
     width: 507px;
     height: 389px;
     top: 0;
-    left: 5;
+    left: 5px;
     background: url("https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png") center / cover no-repeat;
     z-index: 1;
 }
@@ -24,7 +24,7 @@
     width: 300px;
     height: 389px;
     top: 0;
-    right: 5;
+    right: 5px;
     box-sizing: border-box;
     background: linear-gradient(
         120deg,
