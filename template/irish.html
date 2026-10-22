@@ -19,25 +19,23 @@
 }
 
 /* IMAGE ON THE LEFT */
-
 .irish-image {
-    float: left;
+    position: absolute;
     width: 500px;
-    height: aut0;
-    shape-outside: url("https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png");
-    shape-image-threshold: 0.1;
-    shape-margin: 12px;
-    margin: 0 10px 10px 0;
-    display: block;
+    height: 500px;
+    top: 0;
+    left: -40px;
+    background: url("https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png") center / cover no-repeat;
+    z-index: 1;
 }
 
 /* TEXTBOX ON THE RIGHT */
 .irish-textbox {
     position: absolute;
-    width: 400px;
+    width: 380px;
     height: 500px;
     top: 0;
-    right: 0;
+    right: -10px;
     box-sizing: border-box;
     background: linear-gradient(
         120deg,
@@ -84,7 +82,7 @@
     margin: 0;
     padding: 0 10px;
     box-sizing: border-box;
-    z-index: 8;
+    z-index: 3;
     text-align: center;
     text-transform: none !important;
     font-family: "Kings", cursive;
@@ -132,10 +130,9 @@
 
 <div class="irish-template">
 
+    <div class="irish-image"></div>
+
     <div class="irish-textbox">
-        <img class="irish-image"
-             src="https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png"
-             alt="Irish Image">
         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 <p>
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
