@@ -10,42 +10,37 @@
 /* IMAGE ON THE LEFT */
 .irish-image {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 500px;
     top: 0;
-    left: 0;
+    left: -20px;
     background: url("https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png") center / cover no-repeat;
-    z-index: 1;
+    z-index: 5;
 }
 
 /* TEXTBOX ON THE RIGHT */
 .irish-textbox {
     position: absolute;
-    width: 400px;
+    width: 360px;
     height: 500px;
     top: 0;
     right: 0;
     box-sizing: border-box;
-
     background: linear-gradient(
         120deg,
         #D3DAD9,
         #715A5A,
         #44444E
     );
-
     background-size: 200% 200%;
     animation: gradientMove 8s ease infinite;
-
     border: 2px solid #37353E;
     padding: 20px 20px 75px;
-
     font-family: Georgia, serif;
     font-size: 13px;
     line-height: 1.6;
     text-align: justify;
     color: white;
-
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 2;
@@ -69,25 +64,22 @@
 /* TITLE AT THE BOTTOM */
 .irish-title {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
     left: 0;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0 10px;
     box-sizing: border-box;
-
-    z-index: 3;
+    z-index: 8;
     text-align: center;
     text-transform: none !important;
-
     font-family: "Kings", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    letter-spacing: 5px;
+    font-size: 80px;
+    letter-spacing: 8px;
     line-height: 1.2;
-
     background: linear-gradient(
         to right,
         #FAF0E6,
@@ -95,11 +87,9 @@
         #B9B4C7,
         #FAF0E6
     );
-
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
     filter: drop-shadow(0 0 5px #61677A);
     animation: titlePulse 3s infinite;
 }
