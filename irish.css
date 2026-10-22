@@ -93,7 +93,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 5px #61677A);
-    animation: titlePulse 2s infinite;
+    animation: titlePulse 5s infinite;
 }
 
 /* TITLE GLOW ANIMATION */
