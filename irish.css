@@ -10,10 +10,10 @@
 /* IMAGE ON THE LEFT */
 .irish-image {
     position: absolute;
-    width: 500px;
+    width: 530px;
     height: 500px;
     top: 0;
-    left: -40px;
+    left: -50px;
     background: url("https://raw.githubusercontent.com/ghettobarbie18/irish/refs/heads/main/odhran4.png") center / cover no-repeat;
     z-index: 1;
 }
@@ -21,10 +21,10 @@
 /* TEXTBOX ON THE RIGHT */
 .irish-textbox {
     position: absolute;
-    width: 380px;
+    width: 350px;
     height: 500px;
     top: 0;
-    right: -10px;
+    right: -40px;
     box-sizing: border-box;
     background: linear-gradient(
         120deg,
@@ -64,7 +64,7 @@
 /* TITLE AT THE BOTTOM */
 .irish-title {
     position: absolute;
-    bottom: 50px;
+    bottom: -50px;
     left: 0;
     width: 100%;
     height: auto;
